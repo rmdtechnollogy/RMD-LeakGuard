@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "RMD LeakGuard/1.0.0": {
+        "dependencies": {
+          "DnsClientX": "2.1.2"
+        },
+        "runtime": {
+          "RMD LeakGuard.dll": {}
+        }
+      },
+      "DnsClientX/2.1.2": {
+        "runtime": {
+          "lib/net10.0/DnsClientX.dll": {
+            "assemblyVersion": "2.1.2.0",
+            "fileVersion": "2.1.2.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "RMD LeakGuard/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DnsClientX/2.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3VEniPsDZ5GoS5r47mjyf1IlLAvjoux7c4YuOkehGzXhScPzfA4s8nfIGO9KnD/deSInyrMOBp8gBwnDwU8n7A==",
+      "path": "dnsclientx/2.1.2",
+      "hashPath": "dnsclientx.2.1.2.nupkg.sha512"
+    }
+  }
+}
