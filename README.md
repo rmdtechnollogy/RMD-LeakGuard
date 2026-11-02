@@ -24,17 +24,14 @@ No Telemetry: Absolutely no data is logged, stored, or uploaded to external serv
 
 Local Execution: Everything runs locally on your machine.
 
-Open Source: The code is available here. You can review it or compile it yourself to see exactly what it does.
-
-Passive Monitoring: The security monitor uses standard Windows APIs to read your network tables, the same way Task Manager does.
-
 Requirements
 Yes, you need the .NET runtime installed to run this.
-This is a C# Windows Forms application. You will need:
 
 OS: Windows 10 or 11 (64-bit)
 
 Runtime: .NET Desktop Runtime 6.0 or 8.0 (depending on the version you built it with) OR .NET Framework 4.8.
+
+https://builds.dotnet.microsoft.com/dotnet/Sdk/10.0.403/dotnet-sdk-10.0.403-win-x64.exe
 
 Privileges: Run as Administrator. This is required for the Raw Packet Capture feature to function, as Windows blocks raw socket access for standard users. The rest of the app will run without admin rights.
 
